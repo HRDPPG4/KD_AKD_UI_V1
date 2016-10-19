@@ -121,6 +121,8 @@ app.controller('MainCtrl', function($scope,$rootScope, $http, $sce, $timeout) {
 		$scope.sta = category.c.STATUS;
 		$scope.icon = category.c.ICON;
 		$scope.cid = category.c.CAT_ID;
+		$scope.catNumOrder = category.c.ORDER;	
+		$scope.catLevel = category.c.CAT_LEVEL;
 	}
 	
 	$scope.updateCategory = function() {
@@ -134,6 +136,7 @@ app.controller('MainCtrl', function($scope,$rootScope, $http, $sce, $timeout) {
 				'PARENT_ID': $scope.parentID,
 				'STATUS' : $scope.sta,
 				'ICON': $scope.icon,
+				'ORDER': $scope.catNumOrder,
 				'CAT_ID' : $scope.cid
 			}
 		}).then(function(response) {
@@ -156,6 +159,8 @@ app.controller('MainCtrl', function($scope,$rootScope, $http, $sce, $timeout) {
 	
 	// UPLOAD CATEGORY AND SUB-CATEGORY BLOCK
 	$scope.ParentID = "";
+	$scope.catIcon="";
+	$scope.des="";	
 	$scope.sta = 1;
 	$scope.catLevel = 0;
 	$scope.catNumOrder = 0;
@@ -382,7 +387,7 @@ app.controller('UserCtrl', function($scope, $rootScope, $http, $sce, $timeout,$w
 app.controller('DocumentCtrl', function($scope,$rootScope, $http, $sce, $timeout,$window) {
 	$rootScope.userID = $window.userID;
 	
-	$scope.des="";	
+	
 	$scope.showSingleInput = false;
 	$scope.showMultipleInput = false;
 	

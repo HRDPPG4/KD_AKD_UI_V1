@@ -20,12 +20,24 @@
 										type="text" class="form-control" placeholder="Category title "
 										name="folderName" ng-model="folderName">
 								</div>
-
-								<div class="form-group" ng-show="showCatBox">
-									<label>Category:</label> <select class="form-control"
-										ng-model="ParentID">
-										<option ng-repeat="x in category" value="{{x.CAT_ID}}">{{x.CAT_NAME}}</option>
-									</select>
+								
+								<div class="form-group">
+									<label for="categoryTitle">Category Icon</label> 
+									<input type="text" class="form-control" placeholder="Icon"
+										ng-model="icon">
+								</div>
+								
+								<div class="form-group"​ ng-show="!showCatBox">
+									<label for="categoryTitle">Category Order Number</label> 
+									<input type="number" class="form-control" placeholder="Order Number"
+										ng-model="catNumOrder">
+								</div>
+								
+								<div class="form-group" ng-show="catLevel!=0">
+									<label>Category:</label> 
+									<select class="form-control" ng-model="parentID">			       
+				                        <option ng-repeat="cat in allCategoryNewFun | filter:{CAT_LEVEL:'0'}" value="{{cat.CAT_ID}}">{{cat.CAT_NAME}}</option>
+				                   	</select>
 								</div>
 
 

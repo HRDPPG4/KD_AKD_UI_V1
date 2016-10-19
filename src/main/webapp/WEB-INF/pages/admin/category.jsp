@@ -101,16 +101,6 @@
 
 								</tbody>
 								<tfoot>
-									<!-- <tr>									
-										<th>
-											<button class="btn btn-flat btn-primary" data-toggle="modal"
-												data-target="#addMainModal" ng-click="showCatBox=false">Add Categories</button>
-										</th>
-										<th>
-											<button class="btn btn-flat btn-primary" data-toggle="modal"
-												data-target="#addMainModal" ng-click="showCatBox=true">Add Sub Categories</button>
-										</th>
-									</tr> -->
 
 									<!-- Modal -->
 									<div class="modal fade" id="addMainModal" role="dialog" >
