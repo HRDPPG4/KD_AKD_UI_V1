@@ -1,0 +1,99 @@
+#partner .navbar-nav ul.dropdown-menu {
+    width: 320px !important;
+    padding: 20px;
+    min-height: 196px;
+    overflow-y: auto;
+    width: 320px;
+}
+#partner .dropdown-item li {
+    padding: 1px;
+    margin: 1px;
+    display: inline-block;
+    vertical-align: top;
+    color: black;
+    z-index: 999;
+    width: 86px;
+    height: 98px;
+    text-align: center;
+} 
+#partner .dropdown-item li a {
+    position: absolute;
+    border-radius: 3px;
+    border: 0.01em solid #fff;
+}
+#partner .dropdown-item li a img {
+    width: 48px;
+    height: 48px;
+}
+#partner .dropdown-item li a span {
+    display: block;
+    font-size: 10pt !important;
+}
+#partner .navbar-collapse.collapse{
+	display: table-cell!important;
+}
+#partner .nav>li>a {
+    padding: 0px;
+    padding-left: 7px;
+   	background-color: white;
+   	color:black !important;
+}
+#partner .nav>li>a:hover {
+    color:black !important;
+}
+#partner
+{
+	*font-size: 27px;
+	
+}
+#partner li#partner
+{
+	*font-size: 25px;
+	
+}
+
+#partner .navbar-nav>li>a {
+    line-height: 0px;
+    font-size: 19px;
+}
+#partner .navbar-inverse .navbar-nav>.open>a,#partner .navbar-inverse .navbar-nav>.open>a:focus,#partner  .navbar-inverse .navbar-nav>.open>a:hover {
+    color:black !important;
+    background-color: white;
+}
+#partner .glyphicon-th:before{
+	font-size: 35px;	
+	margin-right: 13px;
+}
+#partner .partnerUL{
+	max-height: 346px;
+	height: 396px;
+}
+
+ul.dropdown-menu.dropdown-item.partnerUL::before{
+    content: "" !important;
+    position: absolute !important;
+    top: -18% !important;
+    left: 84% !important;
+    border-width: 10px !important;
+    border-style: dashed dashed solid !important;
+    border-color: transparent !important;
+    border-bottom-color:white !important;
+    z-index: 2 !important;
+    display:block;
+    visibility: visible;
+}
+
+ul.dropdown-menu.dropdown-item.partnerUL::after{
+    content: "" !important;
+    position: absolute !important;
+    top: -19% !important;								/* differenct from before  */
+    left: 84% !important;
+    border-width: 10px !important;
+    border-style: dashed dashed solid !important;
+    border-color: transparent !important;
+    border-bottom-color: #fff !important;				/* differenct from before  */
+    border-bottom-color: rgba(0,0,0,.2) !important;	/* differenct from before  */
+    z-index: 1 !important;								/* differenct from before  */
+    display:block;
+    visibility: visible;
+}

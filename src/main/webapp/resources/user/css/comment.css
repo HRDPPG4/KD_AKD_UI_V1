@@ -1,0 +1,77 @@
+#commentBox
+{
+	/* min-width: 100%;
+	min-height: 30%; 
+	
+	padding:10px;
+	
+	float: right;
+	margin-bottom: 10px; */
+	background-color: white;
+	color: black;
+}
+#commentBox img
+{
+	width: 45px;
+	height: 45px;
+    border-radius: 50%;
+}
+
+
+
+#commentBox textarea
+{
+	min-height: 5%;
+	min-width: 95%;
+	padding:10px;
+	font-family: Khmer OS Battambang;
+}
+#commentBox #img-user
+{
+	float: left;
+	clear: both;
+}
+#commentBox #btnPost
+{
+	padding: 15px;
+	float: right;
+}
+#commentBox #commentBoxArea,#listCommentBox
+{
+	*clear: both;
+}
+#listCommentBox
+{
+	heigh:50%;
+	width:100%;
+}
+#listCommentBox #img-user-commented
+{
+	float: left;
+	clear: both;
+}
+
+.image-user-commend
+{
+	margin: 0px 12px !important;
+}
+#listCommentBox #comment-list
+{
+	clear: both;
+*	float: left;
+	text-align:left;
+	width: 100%;
+	/* position: relative;
+	left:73px; */
+}
+
+#listCommentBox #comment-list p.comment
+{
+	padding-left: 74px;
+	line-height: 30px;
+}
+
+@media (min-width: 992px)
+div#img-user.col-md-1 {
+    padding: 0px !important;
+}

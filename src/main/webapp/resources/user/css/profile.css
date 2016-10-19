@@ -1,0 +1,555 @@
+.topspace-profile{
+	overflow: hidden;
+   margin-top: 20px;
+    margin-bottom: 20px;
+}
+.left-profile{
+*	background-color:#106CC8 !important;
+	    border: 1px solid;
+	border-top-color: rgb(229, 230, 233);
+    border-right-color: rgb(223, 224, 228);
+    border-bottom-color: rgb(208, 209, 213);
+    border-left-color: rgb(223, 224, 228);
+    min-height:500px;
+    width:230px;
+	float: left;
+}
+.left-profile > .img-pro img{
+	position:relative;
+	width:100%;
+	cursor:pointer;
+	border:2px solid #fff;
+	height:190px;
+}
+.edit-profileImage{
+	position: relative;
+	top:-1px;
+	margin-top:-40px;
+	opacity: 0.8;
+	margin-left:3px;
+	visibility:hidden;
+	margin-right:3px;
+	cursor:pointer;
+	background-color:#000 !important;
+}
+a.upload-proflie{
+	cursor:pointer;
+	min-width:200px;
+	height:40px;
+	visibility:hidden;
+	margin-left:3px;
+	margin-right:3px;
+	text-decoration: none;
+	
+}
+#camera{
+position:absolute;
+visibility:visible;
+	font-size:20px;
+	position:relative;
+	top:10px;
+	color:#fff;
+}
+.profileImage{
+	color:#fff;
+	position:relative;
+	left:40px;
+	top:-6px;
+	text-decoration: none;
+	
+}
+
+
+.user-name{
+	color:#fff;
+	text-align:center;
+	line-height:40px;
+	font-size: 14px;
+	font-weight: 500;
+}
+ul.title-profile{
+	list-style-type: none;
+	text-decoration:none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+  *  background-color: #106CC8;
+}
+li.about i{
+	padding-right:10px;
+}
+ li.about a{
+	 display: block;
+    color:#fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+ li.about a:hover{
+  text-decoration: none;
+  background:#fff;
+   width:228px;
+  border:none;
+	color:#000;
+}
+li a.active {
+    background-color: #84b1d8;
+    color: black;
+}
+.nav-pills>li>a {
+    border-radius: 0;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+   text-decoration: none;
+  background:#fff;
+  width:228px;
+  border:none;
+	color:#000;
+}
+/*  */
+
+
+.dashboard-content{
+	position:relative;
+	left:230px;
+}
+.preview-all{
+	border: 1px solid;
+	border-top-color: rgb(229, 230, 233);
+    border-right-color: rgb(223, 224, 228);
+    border-bottom-color: rgb(208, 209, 213);
+    border-left-color: rgb(223, 224, 228);
+	/* padding:10px; */
+	width:900px;
+	background-color:#fff;
+	padding: 13px 18px;
+	margin-right: 1px;
+}
+
+#dashboard-header{
+	margin:0;
+	padding:0;
+	list-style-type: none;
+}
+#dashboard-header .view-value{
+   font-weight: 500;
+    text-shadow: 0 1px 0 #fff;
+    line-height: 1em;
+    position:relative;
+    color: #555;
+    margin: 2px 0 6px;
+}
+
+#dashboard-header li{
+	font-size: 16px;
+    color: #777;
+    text-align: center;
+    padding: 0 24px;
+    border-right: 1px solid #e2e2e2;
+    display: inline-block;
+}
+
+.content-pdf-ppt-doc{
+	width:900px;
+	padding:10px;
+	margin-left:205px;
+	position:absolute;
+	margin-top:10px;
+	background-color:#fff;
+	 border: 1px solid;
+	border-top-color: rgb(229, 230, 233);
+    border-right-color: rgb(223, 224, 228);
+    border-bottom-color: rgb(208, 209, 213);
+    border-left-color: rgb(223, 224, 228);
+}
+.pdf-preview{
+	float:left;
+	width:300px;
+	margin-left:10px;
+	padding-top:10px;
+}
+
+.pdf-preview img{
+	border:1px solid gray;
+	margin-bottom:2px;
+	width:100px;
+}
+	a.thumbnail {
+    text-decoration: none;
+    border: none;
+    background:transparent;
+    margin-bottom:-50px;
+}
+.title-pdf-pre{
+	display:inline-block;
+	margin-left:-10px;
+	position: relative;
+	top:-130px;
+}
+.count-view-pdf{
+	display:inline-block;
+	margin-left:-50px;
+	position: relative;
+	top:-110px;
+}
+/*  */
+.doc-preview{
+	float:left;
+	width:300px;
+	margin-left:10px;
+	padding-top:10px;
+}
+.doc-preview img{
+	border:1px solid gray;
+	margin-bottom:2px;
+	width:100px;
+}
+.thumbnail .img {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    height: 180px;
+    margin: 0 0 5px;
+    position: relative;
+    text-decoration: none;
+}
+.title-doc-pre{
+	display:inline-block;
+	margin-left:-10px;
+	position: relative;
+	top:-130px;
+}
+.count-view-doc{
+	display:inline-block;
+	margin-left:-50px;
+	position: relative;
+	top:-110px;
+}
+/*  */
+.ppt-preview{
+	float:left;
+	width:300px;
+	margin-left:10px;
+	padding-top:10px;
+}
+.ppt-preview img{
+	border:1px solid gray;
+	margin-bottom:2px;
+	width:100px;
+}
+a.thumbnail_ppt {
+    text-decoration: none;
+    border: none;
+    background:transparent;
+    margin-bottom:-70px;
+}
+.thumbnail_ppt .img_ppt{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 0 5px;
+    position: relative;
+    text-decoration: none;
+}
+.title-ppt-pre{
+	color:#000;
+	display:inline-block;
+	margin-left:120px;
+	position: relative;
+	top:-130px;
+}
+.count-view-ppt{
+	color:#000;
+	display:inline-block;
+	margin-left:-50px;
+	position: relative;
+	top:-110px;
+}
+/*  */
+.content-mydoc{
+	 width:900px;
+	padding:10px;
+	margin-left:230px;
+	position:absolute;
+	background-color:#fff;
+	 border: 1px solid;
+	border-top-color: rgb(229, 230, 233);
+    border-right-color: rgb(223, 224, 228);
+    border-bottom-color: rgb(208, 209, 213);
+    border-left-color: rgb(223, 224, 228);
+}
+/*  */
+.content-viewed-all{
+	 width:900px;
+	padding:10px;
+	margin-left:230px;
+	position:absolute;
+	background-color:#fff;
+	 border: 1px solid;
+	border-top-color: rgb(229, 230, 233);
+    border-right-color: rgb(223, 224, 228);
+    border-bottom-color: rgb(208, 209, 213);
+    border-left-color: rgb(223, 224, 228);
+}
+
+
+#header-view-history ul{
+	list-style-type:none;
+/* 	margin-top: 10px; */
+    padding: 0 20px;
+    border-bottom: 1px solid #e2e2e2;
+    clear: both;
+}
+li.history-title{
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 40px;
+	
+}
+.media-body{
+	padding:10px;
+}
+.btn-clear-history{
+	padding-top:0px;
+	padding-bottom:10px;
+	 border-bottom: 1px solid #e2e2e2;
+	 clear:both;
+}
+button.clear-history{
+	color:#fff;
+	padding:10px;
+	border:1px solid #fff;
+}
+.history-view{
+	padding-top:1px;
+}
+
+.pull-left img{
+	width:100px;
+}
+.history-view .list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -20px;
+    background-color: #fff;
+    border:none;
+     border-bottom: 1px solid #e2e2e2;
+}
+/*  */
+.content-savelist-all{
+	 width:920px;
+	padding:10px;
+	margin-left:230px;
+	position:absolute;
+	font-family:"Khmer OS Battambang";
+	background-color:#fff;
+	 border: 1px solid;
+	border-top-color: rgb(229, 230, 233);
+    border-right-color: rgb(223, 224, 228);
+    border-bottom-color: rgb(208, 209, 213);
+    border-left-color: rgb(223, 224, 228);
+}
+
+
+ul.view-savelist {
+	font-size:14px;
+    list-style-type: none;
+    padding:5px;
+    overflow: hidden;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+li.savelist {
+	position:relative;
+    float: left;
+    top:13px;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+}
+ li.btn-add{
+ position:relative;
+ float:left;
+ left:20px;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+ }
+ li.btn-add button{
+ padding:10px;
+ color:#fff;
+ border: 1px solid #fff;
+ 
+ }
+ 
+ .border-create{
+ z-index:-300;
+    background: #fff;
+    border: 1px solid #c5c5c5;
+ }
+.createlist-tooltip{
+position:relative; 
+z-index:500px;
+ top:53px;
+ left:360px;
+ display: none;
+}
+.tooltip-header-list{
+	 content: "";
+    position: absolute;
+    left: 70px;
+    top:-8px;
+    margin-left: -5px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+.body-list{
+	width:300px;
+	background:#fff;
+	top:10px;
+	padding:10px;
+	position: absolute;
+	 border: 1px solid;
+	border-top-color: rgb(229, 230, 233);
+    border-right-color: rgb(223, 224, 228);
+    border-bottom-color: rgb(208, 209, 213);
+    border-left-color: rgb(223, 224, 228);
+}
+.header-list{
+	color:#000;
+}
+.descript-list{
+	padding-top:5px;
+}
+.descript-list > input[type=text]{
+	 width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.footer-list{
+	min-width: 250px;
+	padding-top:8px;
+	padding-bottom:8px;
+	margin-left:-10px;
+	margin-right:-10px;
+	margin-bottom:-10px;
+	padding;
+}
+button.btn-content-list{
+	position: relative;
+    top: 0;
+    left: 150px;
+    padding: 5px;
+    color: #000;
+    background:#fff;
+   
+}
+button.btn-create{
+	  top: 0;
+	left: 160px;
+    padding: 6px;
+    position: relative;
+     background:#fff;
+    color: #000;
+   
+}
+
+
+/*  */
+.content-aboutme{
+	width:920px;
+	/* padding:10px; */
+	margin-left:230px;
+	position:absolute;
+	font-family:"Khmer OS Battambang";
+	background-color:#fff;
+	 border: 1px solid;
+	border-top-color: rgb(229, 230, 233);
+    border-right-color: rgb(223, 224, 228);
+    border-bottom-color: rgb(208, 209, 213);
+    border-left-color: rgb(223, 224, 228);
+}
+.header-infor{
+	background-image: url(../img/banner-user.png);
+	background-position:top;
+	padding:10px;
+	height:150px;
+	color:#fff;
+}
+.header-infor h1{
+	position:relative;
+	top:20px;
+	text-shadow: 0.1em 0.1em 0.1em #000;
+	text-align: center;
+}
+.profile-wrap{
+	width:100%;
+	padding:10px;
+}
+.profile-name-content{
+	width:70%;
+	margin-bottom:10px;
+}
+.profile-name-label{
+	margin-left:20px;
+	margin-right:20px;
+	height: 30px;
+	border: 1px solid #eee;
+	padding:6px 80px 6px 80px;
+	width:100px;
+}
+.profile-phone-label{
+	margin-left:20px;
+	margin-right:20px;
+	height: 30px;
+	border: 1px solid #eee;
+	padding:6px 100px 6px 30px;
+	width:100px;
+}
+.profile-psw-label{
+	margin-left:20px;
+	margin-right:20px;
+	height: 30px;
+	border: 1px solid #eee;
+	padding:6px 100px 6px 30px;
+	width:100px;
+}
+.left-phone{
+	position: relative;left:50px;
+}
+.left-psw{
+	position: relative;left:50px;
+}
+.profile-name{
+	border:1px solid #eee;
+	margin-left:-25px;
+	padding:6px 6px 6px 6px;
+}
+.input-name{
+	padding:6px 6px 6px 6px;
+	width:220px;
+	margin-left:-5px;
+	margin-right:-5px;
+}
+.profile-email-label{
+	margin-left:20px;
+	margin-right:20px;
+	height: 30px;
+	border: 1px solid #eee;
+	padding:6px 80px 6px 78px;
+	width:100px;
+}
+input[type="submit"].submit-profile{
+	position:relative;
+	color:#fff;
+	border:1px solid #fff;
+	padding:10px;
+	background-color:#106cc8;
+	left:30%;
+}

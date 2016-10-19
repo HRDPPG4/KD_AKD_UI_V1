@@ -1,0 +1,487 @@
+@media screen and (max-width: 1780px) {
+ /*    .body-cates{
+   left: 25% !important;
+    }  */
+    
+}
+
+@media screen and (max-width: 1520px) {
+  
+}
+@media screen and (max-width: 1255px) {
+  
+}
+@media screen and (max-width: 1199px) {
+    /*search contain*/
+ /*////////////////////////////////////////////////////////////*/
+ 
+/*upload,sign in,sign up*/
+
+.upload-signup-signin{
+  position: relative;
+  float: right;
+  right: 140px;
+  top: -33px;
+  padding: 0px;
+  margin-bottom:-30px;
+  display: inline-block;
+  list-style-type:none;
+}
+.upload-signup-signin > ul li#upload,li#signin ,li#signup{
+  position: relative;
+  text-decoration: none;
+  display: inline;
+}
+ul li#upload  > a,li#signin  > a ,li#signup > a{
+  color: gray;
+   font-size:14px;
+  text-decoration: none;
+  * background-color:red;
+  padding: 5px 10px 5px 7px;
+}
+
+
+.main-menu{
+ 	position: relative;
+ 	    margin-left: -50px;
+
+ }
+  }
+@media screen and (max-width: 1160px) {
+    
+  }
+@media screen and (max-width: 1096px) {
+ 
+}
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
+@media screen and (max-width:1023px) {
+  .main-menu{
+  position: relative;
+  margin-left: 0;
+
+ }
+  ul.menu-basic li:not(:first-child) {
+    display: none;
+  }
+  ul.menu-basic li:first-child {
+    display: none;
+  }
+  
+  ul.menu-basic li.active a{
+  border-bottom: 1px dashed #3B5998;
+}
+  ul.menu-basic li a{
+    border-bottom: 1px dashed #fff;
+  }
+ 
+  ul.menu-basic li.icon {
+    float: right;
+    display: inline-block;
+  }
+  
+  ul.menu-basic li a#search{
+	display: inline-block;
+    color: #fff;
+    position: relative;
+    top: 5.5px;
+    left:1px;
+    text-align: center;
+    text-decoration: none;
+      font-size: 18px;
+}
+ul.menu-basic li a#search:hover{
+    color: #fff;
+    position: relative;
+    top: 5.5px;
+    text-align: center;
+    background-color:transparent !important;
+    /* padding: 10px 16px; */
+    text-decoration: none;
+      font-size: 18px;
+}
+}
+
+
+
+
+@media screen and (max-width:1023px) {
+  ul.menu-basic.responsive {position: relative;}
+  ul.menu-basic.responsive li.icon {
+    position: absolute;
+    right: 0;
+    color: black;
+    top: 0;
+  }
+  ul.menu-basic.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.menu-basic.responsive li a {
+    display: block;
+    text-align: left;
+  }
+#avatar-user a img{
+	position:relative;
+	/* display: none !important; */
+}
+
+/*  */
+
+ /*////////////////////////////////////////////////////////////*/
+ 
+/*upload,sign in,sign up*/
+
+.upload-signup-signin{
+  position: relative;
+  float: right;
+  right: 110px;
+  top: -39px;
+  padding: 0px;
+  margin-bottom:-30px;
+  display: inline-block;
+  list-style-type:none;
+}
+.upload-signup-signin > ul li#upload,li#signin ,li#signup{
+  position: relative;
+  text-decoration: none;
+  display: inline;
+}
+ul li#upload  > a,li#signin  > a ,li#signup > a{
+  color: gray;
+  text-decoration: none;
+  padding: 5px 10px 5px 7px;
+}
+
+}
+@media screen and (max-width: 967px){
+
+ /*////////////////////////////////////////////////////////////*/
+ 
+/*upload,sign in,sign up*/
+
+.upload-signup-signin{
+  position: relative;
+  float: right;
+  right: 110px;
+  top: -39px;
+  padding: 0px;
+  margin-bottom:-30px;
+  display: inline-block;
+  list-style-type:none;
+}
+.upload-signup-signin > ul li#upload,li#signin ,li#signup{
+  position: relative;
+  text-decoration: none;
+  display: inline;
+}
+ul li#upload  > a,li#signin  > a ,li#signup > a{
+  color: gray;
+  text-decoration: none;
+  padding: 5px 10px 5px 7px;
+}
+ 
+  
+}
+@media screen and (max-width: 992px){
+	 .left-side-nav{
+     left:0%;
+    }
+	}
+	
+@media screen and (max-width: 900px){
+  ul.menu-basic.responsive {position: relative;}
+  ul.menu-basic.responsive li.icon {
+    position: absolute;
+    right: 0;
+    color: black;
+    top: 0;
+  }
+  ul.menu-basic.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.menu-basic.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media screen and (max-width: 766px){
+
+  }
+
+  @media screen and (max-width:886px){
+
+ /*////////////////////////////////////////////////////////////*/
+ .top-menu{
+  height: 50px;
+}
+/*upload,sign in,sign up*/
+
+.upload-signup-signin{
+  position: relative;
+  float: right;
+  right: 210px;
+  top:-40px;
+  padding: 0px;
+  margin-bottom:-30px;
+  display: inline-block;
+  list-style-type:none;
+}
+.upload-signup-signin > ul li#upload,li#signin ,li#signup{
+  position: relative;
+  text-decoration: none;
+  display: none;
+}
+ul li#upload  > a,li#signin  > a ,li#signup > a{
+  color: gray;
+  text-decoration: none;
+  padding: 5px 10px 5px 7px;
+}
+ul li#upload  > a:hover,li#signin  > a:hover ,li#signup > a:hover{
+  color:#eee;
+
+  background-color:#3B5998;
+  text-decoration: none;
+}
+.navbar >  .navbar-logo .brand-logo{
+  position: relative;
+  left: 0;
+  display:inline;
+  color: #3B5998;
+  font-weight: 400px;
+}
+
+#imaginary_container{
+	position:relative;
+	display: none;
+}
+}
+
+  @media screen and (max-width:810px){
+/*upload,sign in,sign up*/
+
+.upload-signup-signin{
+  position: relative;
+  float: right;
+  right: 210px;
+  top: -40px;
+  padding: 0px;
+ 
+  margin-bottom:-30px;
+  display: inline-block;
+  list-style-type:none;
+}
+.upload-signup-signin > ul li#upload,li#signin ,li#signup{
+  position: relative;
+  text-decoration: none;
+  display: none;
+}
+ul li#upload  > a,li#signin  > a ,li#signup > a{
+  color: gray;
+  text-decoration: none;
+  padding: 5px 10px 5px 7px;
+}
+ul li#upload  > a:hover,li#signin  > a:hover ,li#signup > a:hover{
+  color:#eee;
+
+  background-color:#3B5998;
+  text-decoration: none;
+}
+
+.navbar >  .navbar-logo .brand-logo{
+  position: relative;
+ display: none;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+    .container{
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 534px) {   
+     .container{
+      width: 100%;
+    }
+  }
+  /*Nexus 5x*/
+@media screen and (max-width: 412px) {
+    .container{
+      width: 100%;
+    }
+  }
+
+    /*Nexus 5x*/
+@media screen and (max-width: 414px) {
+.left-side-nav{
+     left:0%;
+    /*   z-index: 300; */
+    }
+    .body-cates{
+      /*width: 300px;*/
+   left:4% !important;
+    } 
+    
+    .container{
+      width: 100%;
+    }
+  }
+/*I Phone 6*/
+   @media screen and (max-width: 375px) {
+.left-side-nav{
+     left:0%;
+   
+    }
+
+ 
+    .container{
+      width: 100%;
+    }
+    
+  }
+/*Galasy S5*/
+  @media screen and (max-width: 360px) {
+.left-side-nav{
+     left:0%;
+      /* z-index: 300; */
+    }
+    .body-cates{
+      /*width: 300px;*/
+   left:5% !important;
+    } 
+    
+    .container{
+      width: 100%;
+    }
+  }
+
+ @media screen and (max-width: 345px) {
+.left-side-nav{
+   /*  display: none; */
+    }
+    .body-cates{
+     
+   left: 0% !important;
+    } 
+    
+    .container{
+      width: 100%;
+    }
+    
+    ul.menu-basic.responsive {position: relative;}
+  ul.menu-basic.responsive li.icon {
+    position: absolute;
+    right: 0;
+    color: black;
+    top: 0;
+  }
+  ul.menu-basic.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.menu-basic.responsive li a {
+    display: block;
+    text-align: left;
+  }
+.navbar > .navbar-logo .brand-logo {
+    position: relative;
+    left:0px !important;
+    color: #3B5998;
+    font-weight: 400px;
+}
+
+#avatar-user{
+	position:relative;
+	display: none !important;
+}
+.navbar-logo-main{
+	position: absolute;
+	display: none;
+}
+  }
+
+/*IPhone 5*/
+  @media screen and (max-width: 320px) {
+.left-side-nav{
+  width: 250px;
+  margin-right: 10px;
+  position: relative;
+  left:1%;
+}
+
+    .body-cates{
+      /*width: 300px;*/
+   left: 5% !important;
+    } 
+    .container{
+      width: 100%;
+    }
+    
+   .logo-main-menu{
+	position:absolute;
+	display: none !important;
+	
+}
+#avatar-user a img{
+	position:relative;
+	display: none !important;
+}
+    
+  }
+
+  @media screen and (max-width: 310px) {
+.left-side-nav{
+   /*  display: none; */
+    }
+    .body-cates{
+     
+   left: 0% !important;
+    } 
+    
+    .container{
+      width: 100%;
+    }
+    
+    ul.menu-basic.responsive {position: relative;}
+  ul.menu-basic.responsive li.icon {
+    position: absolute;
+    right: 0;
+    color: black;
+    top: 0;
+  }
+  ul.menu-basic.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.menu-basic.responsive li a {
+    display: block;
+    text-align: left;
+  }
+.navbar > .navbar-logo .brand-logo {
+    position: relative;
+    left: 300px !important;
+    color: #3B5998;
+    font-weight: 400px;
+}
+
+#avatar-user a img{
+	position:relative;
+	display: none !important;
+}
+  }
+

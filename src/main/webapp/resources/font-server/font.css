@@ -1,0 +1,26 @@
+
+@font-face {
+    font-family: 'Chivorn';
+    src: url('font/always_been_right-webfont.eot');
+    src: url('font/always_been_right-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/always_been_right-webfont.woff2') format('woff2'),
+         url('font/always_been_right-webfont.woff') format('woff'),
+         url('font/always_been_right-webfont.ttf') format('truetype'),
+         url('font/always_been_right-webfont.svg#always_been_rightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'NiDA Bayon';
+    src: url('font/NiDABayon.ttf');    
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Khmer OS Battambang';
+    src: url('font/KHMEROS_BATTAMBANG.TTF');    
+    font-weight: normal;
+    font-style: normal;
+}

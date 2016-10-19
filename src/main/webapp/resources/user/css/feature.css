@@ -1,0 +1,36 @@
+#content-feature {
+	margin:0;
+	padding:0;
+	width:100%;
+}
+
+ul.feature-header{
+	list-style-type: none;
+    margin: 0;
+    padding:10px;
+    text-align:center;
+    overflow: hidden;
+   
+}
+
+ul.feature-header li.view-feature{
+	padding-right:10px;
+	padding-left:10px;
+	display: inline-block;
+	text-decoration:none;
+}
+
+ul.feature-header li.view-feature:last-child{
+	padding:10px;
+	text-decoration:none;
+	display: inline-block;
+	border:none;
+}
+
+ li.view-feature a{
+ font-size:16px;
+	text-decoration: none;
+}
+li.view-feature a:hover{
+	text-decoration: none;
+}
