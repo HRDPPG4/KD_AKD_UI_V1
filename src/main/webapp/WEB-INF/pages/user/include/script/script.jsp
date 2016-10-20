@@ -7,7 +7,7 @@
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/plugins/jQuery/jquery-latest.min.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/plugins/jQuery/jquery.filer.min.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/plugins/jQuery/jquery-upload-file.js"></script>
-
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/plugins/bootpag/js/jquery.bootpage.min.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/plugins/shareToFB/js/shareToFB.js"></script>
 
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/plugins/bootstrap/js/bootstrap.min.js"></script>

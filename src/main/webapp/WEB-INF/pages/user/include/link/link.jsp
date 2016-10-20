@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/plugins/jQuery/css/jquery.filer-dragdropbox-theme.css" type="text/css" >
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/plugins/sweetalert/css/sweetalert.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/plugins/sweetalert2/css/sweetalert2.min.css">
-
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/plugins/bootpag/css/bootstrap.min.css">
 
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/user/css/index.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/user/css/categories.css">

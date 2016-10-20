@@ -403,27 +403,84 @@ app.controller('UserCtrl',['$scope','$rootScope','$http','$location','$sce', '$w
 
 		});
 	}
-	
 		
 	$scope.getAllDocument();
 	
+	$scope.getTotalDocByCatID=function(totalDoc){
+		$scope.currentTotalDoc = totalDoc;
+	}
+	
+	$rootScope.currentTotalPage = 0;
 	$scope.getAllDocumentByCatID=function(CatID){
 		$rootScope.currentSubCategory=CatID;		//First It is close!!
 		$http({
-			url:API_ACCESS_CONTROLLER_URL + '/getDocumentByCatID/'+CatID,
-			method:'GET'
+			url:API_ACCESS_CONTROLLER_URL + '/getDocumentByCatID?catID='+CatID,
+			method:'GET',
+			params : $scope.filter
 		}).then(function(response){
 			$scope.documentByCatID=response.data.DATA;
-			if(response.data.DATA==null){
+			
+			if($scope.currentTotalDoc == 0){
+				$scope.filter.page=1;
 				$scope.recordNotFound=true;
+			}
+						
+
+			if(response.data.DATA==null && $scope.currentTotalDoc!=0){
+				$scope.recordNotFound=true;
+				$scope.filter.page=1;
+				$scope.getAllDocumentByCatID(CatID);
 			}
 			else{
 				$scope.recordNotFound=false;
+				$scope.setPagination_DOC_BY_CAT(response.data.PAGING.TOTAL_PAGES);
+				
+				$scope.PAGE = response.data.PAGING;
+				console.log("PAGE: "+$scope.PAGE.PAGE + "  \nLIMIT: "+ $scope.PAGE.LIMIT + "  \nTOTAL_COUNT: "+$scope.PAGE.TOTAL_COUNT + " \nTOTAL_PAGE: "+ $scope.PAGE.TOTAL_PAGES);
 			}
 		}, function(response){
 
 		});
 	}
+	
+	
+	/*	START NEW CODE TO SET PAGINATION	*/
+	
+	var PAGINATION = angular.element("#PAGINATION_DOC_BY_CAT");
+	
+	$scope.filter = {
+			page: 1,
+			limit: 12
+		};
+		
+		
+		$scope.setPagination_DOC_BY_CAT = function(totalPage){
+		//	alert(totalPage);
+			PAGINATION.bootpag({
+				total: totalPage,          // total pages
+				page: $scope.filter.page,   // default page
+				leaps: true,
+		        firstLastUse: true,
+		        first: '←',
+		        last: '→',
+		        next: 'Next',
+		        prev: 'Prev',
+		        maxVisible: 10
+			});		
+		}
+		
+		PAGINATION.on("page", function(event, num){
+			
+		//	alert("Num"+num + " page: "+$scope.filter.page );
+			
+			$scope.filter.page = num;
+			$scope.getAllDocumentByCatID($rootScope.currentSubCategory);
+		});
+	
+	
+	
+	
+	/*	STOP NEW CODE TO SET PAGINATION	*/
 	
 	$scope.getDocumentById=function(docID){
 		

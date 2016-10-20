@@ -4,6 +4,7 @@
 <html>
 <head>
 <title>Show Document By Category</title>
+
 <%@include file="include/link/link.jsp"%>
 
 <style>
@@ -84,7 +85,7 @@ a.thumbnail {
 					  	   					</span>
 					  	   					{{getCategoryByID.CAT_NAME}}
 					  	   				</li>
-					  	   				<li  class="cates-main " ng-repeat="parentCat in parentCategory" ng-click="getAllDocumentByCatID(parentCat.CAT_ID)"> <!--  ng-click="updateTotalDocByCatID(parentCat.CAT_ID)" -->
+					  	   				<li  class="cates-main " ng-repeat="parentCat in parentCategory" ng-click="getAllDocumentByCatID(parentCat.CAT_ID);getTotalDocByCatID(parentCat.TOTAL_DOC)"> <!--  ng-click="updateTotalDocByCatID(parentCat.CAT_ID)" -->
 					  	   					<a data-toggle="pill">{{parentCat.CAT_NAME}} ( <b>{{parentCat.TOTAL_DOC}}</b>​ )</a> 
 					  	   				</li>			  	   				
 							   	   </ul>
@@ -95,14 +96,18 @@ a.thumbnail {
 											<div ng-repeat="slide in documentByCatID track by $index" class="col-lg-4 col-sm-6 col-xs-12">											    
 											     <!-- for Track user log -->	
 									      		<input   type="hidden" class="form-control" value="{{slide.USER_ID}}" id="slide_user_id">									      		
-												<%@include file="include/slide-layout.jsp"%>
-											</div>
-										</div>									
+												<%@include file="include/slide-layout.jsp"%>												
+											</div>											
+										</div>																									
 									</div>
 									<div ng-if="recordNotFound" class="noRecord">
 										<img src="${pageContext.request.contextPath}/resources/user/img/cat-no-doc.png">
 									</div>									
-								</div>  							
+								</div>  
+								<div class="col-sm-3"></div>	
+								<div class="col-sm-9">
+									<div id="PAGINATION_DOC_BY_CAT" style="text-align: center;"></div>
+								</div>														
 							</div>							
 						</div>		
 					</div>
@@ -114,8 +119,8 @@ a.thumbnail {
 	  <footer>
 		<%-- 	<jsp:include page="include/footer.jsp"></jsp:include> --%>
 	   </footer>
-
+	   
+	
 	 <%@include file="include/script/script.jsp"%>
-	 <!-- old file no other angular needed and no sweet alert -->
 </body>
 </html>
