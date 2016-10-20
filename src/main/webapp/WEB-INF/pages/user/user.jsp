@@ -16,7 +16,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Search</title>
+	<title>User</title>
 	<%@include file="include/link/link.jsp"%>
 
 	<!--  New Code -->
