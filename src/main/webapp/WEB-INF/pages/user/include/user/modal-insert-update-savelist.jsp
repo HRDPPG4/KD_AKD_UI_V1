@@ -45,7 +45,7 @@
 						<div class="checkbox pull-right">
 						</div>
 						<div class="pull-left">
-							<img class="media-object" src="{{list.SAVELISTDETAIL[0].DOCUMENT[0].THUMBNAIL_URL}}" alt="Image">
+							<img class="media-object" data-ng-src="{{list.SAVELISTDETAIL[0].DOCUMENT[0].THUMBNAIL_URL}}" alt="Image">
 						</div>
 						<div class="media-body">
 							<h4 class="media-heading">{{list.SAVELISTDETAIL[0].DOCUMENT[0].TITLE}}</h4>

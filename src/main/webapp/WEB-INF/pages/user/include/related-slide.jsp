@@ -11,7 +11,7 @@
 							<input type="hidden" class="form-control" value="{{related.DOC_ID}}" id="slide_id">						 												 																		
 				 		 <a href="/detail/{{related.DOC_ID}}" class="thumbnail-detail" ng-click="getDocumentById(related.DOC_ID)" >
 							<div class="img-detail">
-								<img id="thumnail" src="{{related.THUMBNAIL_URL}}" alt="Thumbnail" style="">  
+								<img id="thumnail" data-ng-src="{{related.THUMBNAIL_URL}}" err-src="{{errorImage2}}" alt="Thumbnail" style="">  
 							</div>
 						</a>
 					</div>

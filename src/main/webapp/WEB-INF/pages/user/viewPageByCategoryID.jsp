@@ -101,7 +101,7 @@ a.thumbnail {
 										</div>																									
 									</div>
 									 <div ng-if="recordNotFound" class="noRecord">
-										<img src="${pageContext.request.contextPath}/resources/user/img/cat-no-doc.png">
+										<img data-ng-src="${pageContext.request.contextPath}/resources/user/img/cat-no-doc.png">
 									</div>								
 								</div>  
 								<div class="col-sm-3"></div>	

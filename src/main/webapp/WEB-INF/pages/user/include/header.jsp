@@ -132,7 +132,7 @@ window.fileName="";
 	<nav class="navbar navbar-inverse navbar-fixed-top navbar-bg">
 		<span class="navbar-logo">
 			<a href="/" class="navbar-brand# brand-logo"> 
-				<img alt="Logo" src="${pageContext.request.contextPath}/resources/user/img/logo-4.png"/>					 
+				<img alt="Logo" data-ng-src="${pageContext.request.contextPath}/resources/user/img/logo-4.png"/>					 
 			 </a>					
 		</span>		
 		<div class="container">
@@ -144,7 +144,7 @@ window.fileName="";
 					  <ul class="nav navbar-nav navbar-right">	
 						<li class="dropdown">
 						  <a href="/profile" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-						  	<img alt="" src="{{API_PATH_ANGULAR}}/resources/img/user-profile/{{userInfoByUserID.PROFILE}}" class="userProfile">						  	
+						  	<img alt="" data-ng-src="{{API_PATH_ANGULAR}}/resources/img/user-profile/{{userInfoByUserID.PROFILE}}" class="userProfile">						  	
 						  </a>
 						  <ul class="dropdown-menu dropdown-item">
 								<li>
@@ -190,7 +190,7 @@ window.fileName="";
 			 <div class="main-menu">
 				 <div style="float:left;position:relative;top:5px;padding-right:20px;padding-bottom:8px;">
 					 <a href="/" class="logo-main-menu" style="background-color:transparent !important;">
-					 	<img alt="Logo" style="width:40px;" src="${pageContext.request.contextPath}/resources/user/img/AKD.png"/>
+					 	<img alt="Logo" style="width:40px;" data-ng-src="${pageContext.request.contextPath}/resources/user/img/AKD.png"/>
 					 </a>
 				</div>
 				<ul class="menu-basic nav" id="myTopnav">

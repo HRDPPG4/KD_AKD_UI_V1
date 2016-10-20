@@ -100,7 +100,7 @@
 											<div class="slide-container" id="SlideBox">												
 												<!--  IFRAME BLOCK TO DISPLAY SLIDE AND PDF -->	
 												<button id="btn-hide" class="btn btn-primary">Hide</button>
-												 <iframe ng-src='{{trustSrc(docDetail[0].EMBEDED_LINK)}}' allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> 
+												 <iframe data-ng-src='{{trustSrc(docDetail[0].EMBEDED_LINK)}}' allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> 
 												 <div ng-show="docDetail[0].DOC_TYPE_NUM == 2 || docDetail[0].DOC_TYPE_NUM == 3">
 												 	<button id="btn-fullscreen" class="btn btn-primary" data-toggle="modal" data-target="#ViewByGoogleDrive" >
 												 		<span> <i class="fa fa-arrows-alt" aria-hidden="true"></i></span>
@@ -114,7 +114,7 @@
 													</div>
 													<div id="owner">
 														<span id="img-user">
-															<img src="{{API_PATH_ANGULAR}}/resources/img/user-profile/{{docDetail[0].USERS[0].PROFILE}}" alt="">
+															<img data-ng-src="{{API_PATH_ANGULAR}}/resources/img/user-profile/{{docDetail[0].USERS[0].PROFILE}}" alt="">
 														</span>
 														 {{docDetail[0].USERS[0].USER_NAME}}														
 														<input type="text" value={{docDetail[0].THUMBNAIL_URL}} id="thubnail" ng-show="false">													

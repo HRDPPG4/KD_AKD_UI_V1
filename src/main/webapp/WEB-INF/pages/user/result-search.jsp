@@ -51,7 +51,7 @@ a.thumbnail {
 								<%@include file="include/slide-layout.jsp"%>  									
 							</div>
 							<div ng-if="recordNotFound" class="noRecord">
-								<img src="${pageContext.request.contextPath}/resources/user/img/search-no-record.png">
+								<img data-ng-src="${pageContext.request.contextPath}/resources/user/img/search-no-record.png">
 							</div>	
 						</div>					
 					</div> 

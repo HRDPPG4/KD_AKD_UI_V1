@@ -8,7 +8,7 @@
 	   		 <div id="pdf-edit" class="tab-pane fade in active">	   	
 	   		 	<div class="main-savelist">
 	   		 		<div class="col-md-3">	   		 			
-	   		 			<img src="${pageContext.request.contextPath}/resources/user/img/savelist.jpg" >
+	   		 			<img data-ng-src="${pageContext.request.contextPath}/resources/user/img/savelist.jpg" >
 	   		 		</div>
 	   		 		<div class="col-md-8">
 	   		 			<h3>{{currentClickSavelist.LIST_NAME}}</h3>
@@ -28,7 +28,7 @@
 			 				<div class="col-md-3">
 			 					<span class="no-savelist">{{$index+1}}</span>
 			 					<a href="/detail/{{slide.DOCUMENT[0].DOC_ID}}">
-			 						<img src="{{slide.DOCUMENT[0].THUMBNAIL_URL}}" alt="Thumbnail">
+			 						<img data-ng-src="{{slide.DOCUMENT[0].THUMBNAIL_URL}}" alt="Thumbnail">
 			 					</a>
 					 			
 					 		</div>

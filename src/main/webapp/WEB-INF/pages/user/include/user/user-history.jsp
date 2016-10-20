@@ -13,7 +13,7 @@
 				<div class="col-md-3">
 					<span class="no-savelist">{{$index+1}}</span>
 					<a href="/detail/{{log.DOCUMENT.DOC_ID}}">
-						<img src="{{log.DOCUMENT.THUMBNAIL_URL}}" alt="Thumbnail">
+						<img data-ng-src="{{log.DOCUMENT.THUMBNAIL_URL}}" alt="Thumbnail">
 					</a>					
 				</div>
 				<div class="col-md-8">

@@ -13,7 +13,7 @@
 	<h3>បញ្ចេញមតិរបស់អ្នកចំពោះអត្ថបទនេះ</h3>
 	<form action="">
 		<div id="img-user" class="col-md-1">
-			 <img alt="" src="{{API_PATH_ANGULAR}}/resources/img/user-profile/{{userInfoByUserID.PROFILE}}">
+			 <img alt="" data-ng-src="{{API_PATH_ANGULAR}}/resources/img/user-profile/{{userInfoByUserID.PROFILE}}">
 		</div>
 
 		<div id="commentBoxArea" class="col-md-11">
@@ -29,7 +29,7 @@
 		
 		<div ng-if="commentByDoc" id="listCommentBox" ng-repeat="comment in commentByDoc">	
 			<div id="img-user-commented">
-				<img alt="" src="{{API_PATH_ANGULAR}}/resources/img/user-profile/{{comment.USERS[0].PROFILE}}" class="image-user-commend">
+				<img alt="" data-ng-src="{{API_PATH_ANGULAR}}/resources/img/user-profile/{{comment.USERS[0].PROFILE}}" class="image-user-commend">
 				{{comment.USERS[0].USER_NAME}}
 			</div>
 			

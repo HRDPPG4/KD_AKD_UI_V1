@@ -13,7 +13,7 @@
         <div class="modal-body">          
            
           <button id="btn-hide" class="btn btn-primary">Hide</button>
-          <iframe ng-src='{{trustSrc(docDetail[0].EMBEDED_LINK)}}'></iframe>
+          <iframe data-ng-src='{{trustSrc(docDetail[0].EMBEDED_LINK)}}'></iframe>
         	
         </div>
         <!-- <div class="modal-footer">

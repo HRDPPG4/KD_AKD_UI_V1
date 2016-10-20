@@ -10,7 +10,7 @@
         
            <button type="button" class="close" data-dismiss="modal">&times;</button>
            <div class="imgcontainer">						     
-	      <img src="${pageContext.request.contextPath}/resources/user/img/login.png" alt="Avatar" class="avatar">
+	      <img data-ng-src="${pageContext.request.contextPath}/resources/user/img/login.png" alt="Avatar" class="avatar">
 	    </div>
         <!-- <h4><span class="glyphicon glyphicon-lock"></span> ចុះឈ្មោះ</h4> -->
           

@@ -11,7 +11,7 @@
 					<h4>Add New User</h4>
 					<div class="imgcontainer">
 						<img
-							src="${pageContext.request.contextPath}/resources/user/img/login.png"
+							data-ng-src="${pageContext.request.contextPath}/resources/user/img/login.png"
 							alt="Avatar" class="avatar">
 					</div>
 				</div>

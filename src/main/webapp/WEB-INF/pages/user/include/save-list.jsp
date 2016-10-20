@@ -25,7 +25,7 @@
   					   		  
   					   		</div>
     						<div class="thumbnail">
-     						 <img src="${pageContext.request.contextPath}/resources/user/img/book.jpg" alt="Thumbnail" style=" width:400px; height:300px;position:relative;" >
+     						 <img data-ng-src="${pageContext.request.contextPath}/resources/user/img/book.jpg" alt="Thumbnail" style=" width:400px; height:300px;position:relative;" >
       				         
    			 			
    			 			<!-- 	<button type="button" class="btn btn-success" id="list-save" >SaveList</button> -->

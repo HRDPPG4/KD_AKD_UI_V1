@@ -21,7 +21,7 @@
 	  <ul class="dropdown-menu dropdown-item partnerUL">
 			<li ng-repeat="partner in partners">
 				<a href="{{partner.SITE_URL}}">
-					<img class="img-rounded" alt="" src="{{partner.SITE_LOGO}}"/>
+					<img class="img-rounded" alt="" data-ng-src="{{partner.SITE_LOGO}}"/>
 					<span class="site-url">{{partner.SITE_NAME}}</span>
 				</a>
 			</li>			

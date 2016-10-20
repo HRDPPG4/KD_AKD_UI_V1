@@ -2,7 +2,7 @@
 
 <a href="/detail/{{slide.DOC_ID}}" class="thumbnail" ng-click="countView(slide.DOC_ID)">
 	<span class="img">
-		<img src="{{slide.THUMBNAIL_URL}}" alt="Thumbnail">  
+		<img data-ng-src="{{slide.THUMBNAIL_URL}}" err-src="{{errorImage2}}" alt="Thumbnail">  
 		<!-- <span class="cover"><span class="title-cover">គណិតវិទ្យា</span></span> -->
 	</span>
 	<span class="title">{{slide.TITLE | strLimit: 22}}</span>

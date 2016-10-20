@@ -16,6 +16,8 @@ app.controller('UserCtrl',['$scope','$rootScope','$http','$location','$sce', '$w
 	$rootScope.userID = $window.userID;
 	$rootScope.CURRENT_PAGE = $window.CURRENT_PAGE;
 	$rootScope.API_PATH_ANGULAR = API_PATH;	// USE IT FOR SET IMAGE URL IN WEB PAGE.
+	$rootScope.errorImage = API_PATH + "/resources/img/doc-thumbnail/no-image-available.png";
+	$rootScope.errorImage2 = API_PATH + "/resources/img/doc-thumbnail/no-image-found.jpg";
 	
 	
 	$scope.partners = [
@@ -419,7 +421,7 @@ app.controller('UserCtrl',['$scope','$rootScope','$http','$location','$sce', '$w
 			params : $scope.filter
 		}).then(function(response){
 			$scope.documentByCatID=response.data.DATA;
-			
+		//	$scope.recordNotFound=true;
 			if($scope.currentTotalDoc == 0){
 				$scope.filter.page=1;				
 				$scope.setPagination_DOC_BY_CAT(1);
@@ -1564,6 +1566,21 @@ app.directive('myEnter', function () {
         });
     };
 });
+
+// WHEN IMAGE LOAD ERROR
+app.directive('errSrc', function() {
+  return {
+    link: function(scope, element, attrs) {
+      element.bind('error', function() {
+        if (attrs.src != attrs.errSrc) {
+          attrs.$set('src', attrs.errSrc);
+        }
+      });
+    }
+  }
+});
+
+
 
 
 
