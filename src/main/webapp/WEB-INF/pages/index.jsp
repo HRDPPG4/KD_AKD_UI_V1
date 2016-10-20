@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Home</title>
+<title>ទំព័រដើម</title>
 <%@include file="user/include/link/link.jsp"%>
 </head>
 <body ng-app="UserApp" ng-controller="UserCtrl" data-ng-init="getDocumentByPopular()">		

@@ -55,14 +55,14 @@ public class AutoLoginController {
 			
 			//System.out.println("Role: "+user.getRole());
 			
-			String roleName = user.getRole();
+			/*String roleName = user.getRole();
 			if (roleName.contains("ADMIN")) {
 				return "redirect:/admin/dashboard";
 			}else if(roleName.contains("USER")){
 				return "redirect:/userAccount";
 			}else{
 				return "redirect:"+continueSite;
-			}
+			}*/
 
 		
 		}catch(Exception e){

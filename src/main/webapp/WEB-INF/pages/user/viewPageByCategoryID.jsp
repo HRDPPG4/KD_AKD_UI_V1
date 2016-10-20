@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Show Document By Category</title>
+<title>${PAGE_TITLE}</title>
 
 <%@include file="include/link/link.jsp"%>
 
