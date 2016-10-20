@@ -421,22 +421,23 @@ app.controller('UserCtrl',['$scope','$rootScope','$http','$location','$sce', '$w
 			$scope.documentByCatID=response.data.DATA;
 			
 			if($scope.currentTotalDoc == 0){
-				$scope.filter.page=1;
-				$scope.recordNotFound=true;
+				$scope.filter.page=1;				
+				$scope.setPagination_DOC_BY_CAT(1);
 			}
 						
-
-			if(response.data.DATA==null && $scope.currentTotalDoc!=0){
-				$scope.recordNotFound=true;
+			if(response.data.DATA==null && $scope.currentTotalDoc!=0){				
 				$scope.filter.page=1;
-				$scope.getAllDocumentByCatID(CatID);
+				$scope.getAllDocumentByCatID(CatID);				
 			}
 			else{
-				$scope.recordNotFound=false;
-				$scope.setPagination_DOC_BY_CAT(response.data.PAGING.TOTAL_PAGES);
-				
-				$scope.PAGE = response.data.PAGING;
-				console.log("PAGE: "+$scope.PAGE.PAGE + "  \nLIMIT: "+ $scope.PAGE.LIMIT + "  \nTOTAL_COUNT: "+$scope.PAGE.TOTAL_COUNT + " \nTOTAL_PAGE: "+ $scope.PAGE.TOTAL_PAGES);
+				if(response.data.PAGING != null){
+					$rootScope.currentTotalPage = response.data.PAGING.TOTAL_PAGES;	
+					$scope.recordNotFound=false;	
+				}else{	
+					$rootScope.currentTotalPage=Math.ceil($scope.currentTotalDoc/$scope.filter.limit);
+					$scope.recordNotFound=true;				
+				}				
+				$scope.setPagination_DOC_BY_CAT($rootScope.currentTotalPage);						
 			}
 		}, function(response){
 

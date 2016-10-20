@@ -100,13 +100,13 @@ a.thumbnail {
 											</div>											
 										</div>																									
 									</div>
-									<div ng-if="recordNotFound" class="noRecord">
+									 <div ng-if="recordNotFound" class="noRecord">
 										<img src="${pageContext.request.contextPath}/resources/user/img/cat-no-doc.png">
-									</div>									
+									</div>								
 								</div>  
 								<div class="col-sm-3"></div>	
 								<div class="col-sm-9">
-									<div id="PAGINATION_DOC_BY_CAT" style="text-align: center;"></div>
+									<div id="PAGINATION_DOC_BY_CAT" style="text-align: center;" ng-show="!recordNotFound"></div>
 								</div>														
 							</div>							
 						</div>		
